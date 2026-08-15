@@ -1,0 +1,21 @@
+# Arduino / firmware build artifacts
+build/
+*.o
+*.elf
+*.hex
+*.ino.cpp
+*.ino.h
+
+# Python (PC-side link)
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# CAD
+*.bak
+*.swp
+
+# OS junk
+.DS_Store
+Thumbs.db

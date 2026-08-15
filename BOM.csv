@@ -1,0 +1,9 @@
+Item,Quantity,Unit Price,Link,Notes
+Seeed Studio XIAO ESP32-S3 Sense,1,,,240MHz dual-core, 8MB PSRAM, onboard camera/mic/charger, U.FL antenna
+Bone conduction transducer,2,,,8-16 ohm; can salvage from cheap bone-conduction earphones
+MAX98357A I2S class-D amp,2,,,Mono audio out, drives bone conduction transducers; gate via SD pin
+Ultra-slim 1S LiPo (300-400 mAh, with protection PCB),2,,,Wire in parallel to XIAO BAT+/BAT- pads
+MAX30102 heart-rate breakout,1,,,PPG over I2C; 1.8V logic (level shift or power rail)
+Electret mic + envelope comparator,1,,,Always-on wake-on-sound; wakes ESP32 from deep sleep via GPIO
+INMP441 I2S mic (fallback),1,,,Only if onboard PDM mic placement is muffled in the temple arm
+U.FL antenna,1,,,Routed into the temple arm
