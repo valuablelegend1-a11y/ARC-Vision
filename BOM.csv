@@ -6,5 +6,5 @@ MAX98357A I2S class-D amp,2,,,"Mono audio out, drives bone-conduction transducer
 "Ultra-slim 1S LiPo (300-400 mAh, with protection PCB)",2,,,"Wire in parallel to Plus BAT+/BAT- pads"
 MAX30102 heart-rate breakout,1,,,"PPG over I2C; 1.8V logic (level shift or power rail)"
 Electret mic + envelope comparator,1,,,"Always-on wake-on-sound; wakes ESP32 from deep sleep via GPIO. Only peripheral that stays powered in deep sleep."
-INMP441 I2S mic (MH-ET LIVE),5,0.71,https://www.aliexpress.us/item/3256809614473821.html,"Primary speech mic (Plus has no onboard mic); I2S into S3, streams to PC for STT. Buy 5-pack ($3.55 total) for spares. Cannot wake from deep sleep - electret+comparator does that."
+INMP441 I2S mic (MH-ET LIVE),5,3.55,https://www.aliexpress.us/item/3256809614473821.html,"Primary speech mic (Plus has no onboard mic); I2S into S3, streams to PC for STT. Buy 5-pack ($3.55 total) for spares. Cannot wake from deep sleep - electret+comparator does that."
 Antenna routing,1,,,"Keep onboard rod antenna region clear of metal in the temple-arm housing"
