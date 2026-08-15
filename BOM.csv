@@ -3,7 +3,7 @@ Seeed Studio XIAO ESP32-S3 Plus (SKU 102010671),1,~10,https://www.seeedstudio.co
 OV2640 24-pin DVP camera module (75MM-120),1,8.19,https://www.aliexpress.us/item/3256805763260734.html,"2MP, DVP 24-pin 0.5mm FPC, 120-degree FOV daylight (IR-cut) sensor, 75mm FPC cable. Needs 24-pin 0.5mm FPC breakout to wire to the Plus. Skip 850nm/650nm night-vision variants for daytime use."
 Bone conduction transducer,2,,,"8-16 ohm; can salvage from cheap bone-conduction earphones; match to MAX98357A output"
 MAX98357A I2S class-D amp,2,,,"Mono audio out, drives bone-conduction transducers; gate via SD pin for power"
-Ultra-slim 1S LiPo (300-400 mAh, with protection PCB),2,,,"Wire in parallel to Plus BAT+/BAT- pads"
+"Ultra-slim 1S LiPo (300-400 mAh, with protection PCB)",2,,,"Wire in parallel to Plus BAT+/BAT- pads"
 MAX30102 heart-rate breakout,1,,,"PPG over I2C; 1.8V logic (level shift or power rail)"
 Electret mic + envelope comparator,1,,,"Always-on wake-on-sound; wakes ESP32 from deep sleep via GPIO. Only peripheral that stays powered in deep sleep."
 INMP441 I2S mic (MH-ET LIVE),5,0.71,https://www.aliexpress.us/item/3256809614473821.html,"Primary speech mic (Plus has no onboard mic); I2S into S3, streams to PC for STT. Buy 5-pack ($3.55 total) for spares. Cannot wake from deep sleep - electret+comparator does that."
